@@ -1,0 +1,15 @@
+.header {
+  width: 100%;
+}
+
+.header-link {
+  width: 20px;
+  height: 20px;
+}
+
+.header-ul {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  grid-gap: 20px;
+}
