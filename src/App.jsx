@@ -12,7 +12,7 @@ export function App() {
     <>
       <Header />
       <Routes>
-        <Route path="/task1" element={<CountdownTimer />}/>
+        <Route path="/" element={<CountdownTimer />}/>
         <Route path="/task2" element={<UserList />} />
         <Route path="/task3" element={<WindowSize />} />
       </Routes>

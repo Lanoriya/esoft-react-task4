@@ -17,6 +17,7 @@ export function CountdownTimer() {
     }
     return () => clearInterval(interval)
   }, [isActive, nowTimer])
+  
   return (
     <div className="timer">
       <p>timer now: {nowTimer}</p>

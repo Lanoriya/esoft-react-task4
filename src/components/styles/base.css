@@ -9,7 +9,7 @@
 
 .header-ul {
   display: flex;
-  width: 30%;
+  width: 50%;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -28,4 +28,8 @@
 .users {
   display: flex;
   grid-gap: 30px;
+}
+
+.window {
+  font-size: 40px;
 }
