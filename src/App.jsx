@@ -12,9 +12,9 @@ export function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/" element={<CountdownTimer />}/>
-        <Route path="/task2" element={<UserList />} />
-        <Route path="/task3" element={<WindowSize />} />
+        <Route exact path='/' element={<CountdownTimer />}/>
+        <Route path='/task2' element={<UserList />} />
+        <Route path='/task3' element={<WindowSize />} />
       </Routes>
     </>
   )
