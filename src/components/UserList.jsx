@@ -20,17 +20,13 @@ export function UserList() {
 
   const fetchUsers = async () => {
     try {
-      const response = await fetch('https://jsonplaceholder.typicode.com/users', {
-        method: 'GET',
-      })
-
+      const response = await fetch('https://jsonplaceholder.typicode.com/users');
       if (!response.ok) {
         throw new Error('error fetch');
       }
 
       const data = await response.json();
       const users = data.map(user => user.name)
-
       setUsersTwo(users);
     } catch (error) {
       console.error('Error:', error)

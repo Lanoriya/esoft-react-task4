@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom"
 
 export function Header() {
-  console.log('header ok')
   return (
     <>
       <div className="header">
